@@ -1,0 +1,9 @@
+C:\Users\dont5\Desktop\Stuff\Coding Projects\CommQuestBeta2\CommQuestBeta2\bin\Debug\CommQuestBeta2.exe.config
+C:\Users\dont5\Desktop\Stuff\Coding Projects\CommQuestBeta2\CommQuestBeta2\bin\Debug\CommQuestBeta2.exe
+C:\Users\dont5\Desktop\Stuff\Coding Projects\CommQuestBeta2\CommQuestBeta2\bin\Debug\CommQuestBeta2.pdb
+C:\Users\dont5\Desktop\Stuff\Coding Projects\CommQuestBeta2\CommQuestBeta2\obj\Debug\CommQuestBeta2.csprojResolveAssemblyReference.cache
+C:\Users\dont5\Desktop\Stuff\Coding Projects\CommQuestBeta2\CommQuestBeta2\obj\Debug\CommQuestBeta2.Form1.resources
+C:\Users\dont5\Desktop\Stuff\Coding Projects\CommQuestBeta2\CommQuestBeta2\obj\Debug\CommQuestBeta2.Properties.Resources.resources
+C:\Users\dont5\Desktop\Stuff\Coding Projects\CommQuestBeta2\CommQuestBeta2\obj\Debug\CommQuestBeta2.csproj.GenerateResource.Cache
+C:\Users\dont5\Desktop\Stuff\Coding Projects\CommQuestBeta2\CommQuestBeta2\obj\Debug\CommQuestBeta2.exe
+C:\Users\dont5\Desktop\Stuff\Coding Projects\CommQuestBeta2\CommQuestBeta2\obj\Debug\CommQuestBeta2.pdb

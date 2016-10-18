@@ -1,0 +1,10 @@
+Extra Dry Tom Collins,3,Sweet and Sour,Apple juice,Grapefruit Juice,Classic,Flute,7,Wednesday,Eric,Linstead,5,55
+Cosmo,4,Grapefruit Juice,Apple juice,Mint,Grand Marnier,Brunch,High Ball,10,Sunday,Rene,German,1,35
+Fizzy Bubbler,2,Red bull,Olive juice,College,Shot,11,Saturday,Eric,Linstead,5,55
+Rene's Momma,4,Olive,Sweet and Sour,Vermouth,Red bull,Brunch,Mug,7,Saturday,Rene,German,1,35
+Italian Old Fashioned,3,Cranberry Juice,Coffee,Coconut Shreds,Cocktail,Shot,8,Wednesday,Rene,German,1,35
+Flame,2,Gin,Coke,College,Martini,7,Tuesday,Rene,German,1,35
+Irish Sasquatch,2,Coconut Shreds,Grenadine,Cocktail,Snifter,13,Saturday,Rene,German,1,35
+Dolphin,3,Sugar Cube,Coke,Salt,Cocktail,Wine,9,Tuesday,Eric,Linstead,5,55
+Stirred Fizz,4,Salt,Soda Water,Bitters,Triple Sec,Lady's,High Ball,12,Sunday,Lance,Fluger,2,40
+Bloody Margarita,3,Pineapple Juice,Ginger Ale,Olive juice,Classic,High Ball,13,Thursday,Lance,Fluger,2,40

@@ -1,0 +1,9 @@
+C:\Users\dont5\Desktop\Stuff\Coding Projects\CPSC408\Assignment2\Assignment2\bin\Release\Assignment2.exe.config
+C:\Users\dont5\Desktop\Stuff\Coding Projects\CPSC408\Assignment2\Assignment2\bin\Release\Assignment2.exe
+C:\Users\dont5\Desktop\Stuff\Coding Projects\CPSC408\Assignment2\Assignment2\bin\Release\Assignment2.pdb
+C:\Users\dont5\Desktop\Stuff\Coding Projects\CPSC408\Assignment2\Assignment2\bin\Release\MySql.Data.dll
+C:\Users\dont5\Desktop\Stuff\Coding Projects\CPSC408\Assignment2\Assignment2\obj\Release\Assignment2.Form1.resources
+C:\Users\dont5\Desktop\Stuff\Coding Projects\CPSC408\Assignment2\Assignment2\obj\Release\Assignment2.Properties.Resources.resources
+C:\Users\dont5\Desktop\Stuff\Coding Projects\CPSC408\Assignment2\Assignment2\obj\Release\Assignment2.csproj.GenerateResource.Cache
+C:\Users\dont5\Desktop\Stuff\Coding Projects\CPSC408\Assignment2\Assignment2\obj\Release\Assignment2.exe
+C:\Users\dont5\Desktop\Stuff\Coding Projects\CPSC408\Assignment2\Assignment2\obj\Release\Assignment2.pdb

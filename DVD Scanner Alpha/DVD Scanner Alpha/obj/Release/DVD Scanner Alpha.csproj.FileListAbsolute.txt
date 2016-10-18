@@ -1,0 +1,12 @@
+C:\Users\dont5\Desktop\Stuff\Coding Projects\DVD Scanner Alpha\DVD Scanner Alpha\bin\Release\HtmlAgilityPack.dll
+C:\Users\dont5\Desktop\Stuff\Coding Projects\DVD Scanner Alpha\DVD Scanner Alpha\bin\Release\HtmlAgilityPack.pdb
+C:\Users\dont5\Desktop\Stuff\Coding Projects\DVD Scanner Alpha\DVD Scanner Alpha\bin\Release\HtmlAgilityPack.xml
+C:\Users\dont5\Desktop\Stuff\Coding Projects\DVD Scanner Alpha\DVD Scanner Alpha\obj\Release\DVD_Scanner_Alpha.Form1.resources
+C:\Users\dont5\Desktop\Stuff\Coding Projects\DVD Scanner Alpha\DVD Scanner Alpha\obj\Release\DVD_Scanner_Alpha.Properties.Resources.resources
+C:\Users\dont5\Desktop\Stuff\Coding Projects\DVD Scanner Alpha\DVD Scanner Alpha\obj\Release\DVD Scanner Alpha.csproj.GenerateResource.Cache
+C:\Users\dont5\Desktop\Stuff\Coding Projects\DVD Scanner Alpha\DVD Scanner Alpha\bin\Release\DVD Scanner.exe.config
+C:\Users\dont5\Desktop\Stuff\Coding Projects\DVD Scanner Alpha\DVD Scanner Alpha\bin\Release\DVD Scanner.exe
+C:\Users\dont5\Desktop\Stuff\Coding Projects\DVD Scanner Alpha\DVD Scanner Alpha\bin\Release\DVD Scanner.pdb
+C:\Users\dont5\Desktop\Stuff\Coding Projects\DVD Scanner Alpha\DVD Scanner Alpha\obj\Release\DVD Scanner.exe
+C:\Users\dont5\Desktop\Stuff\Coding Projects\DVD Scanner Alpha\DVD Scanner Alpha\obj\Release\DVD Scanner.pdb
+C:\Users\dont5\Desktop\Stuff\Coding Projects\DVD Scanner Alpha\DVD Scanner Alpha\obj\Release\DVD Scanner Alpha.csprojResolveAssemblyReference.cache

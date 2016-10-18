@@ -1,0 +1,144 @@
+#include "codeParser.h"
+#include "GenStack.h"
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+codeParser::codeParser(){ 
+
+
+}
+
+void codeParser::readFile(string fName){
+	bool quoted = false;
+	bool singleQuoted = false;
+	bool checkEscape = false;
+	int lines = 0;
+	int chars = 0;
+	int lastLines[3]; // goes paren, brack, brace
+	int lastChars[3]; // goes paren, brack, brace
+	GenStack<char> testStack(8);
+	testStack.push('_');
+	cout << "\n<<< READING FILE >>>  ..b33p b00p.." << endl;
+	ifstream the_file (fName.c_str());
+	if ( !the_file.is_open() )
+		cout<<"Could not open file\n";
+	else {
+		char lastPop = ' ';
+		char x;
+		char check = ' ';
+		while (the_file.get(x)){ //reads file one char at a time
+			check = testStack.peek();
+			if(x=='\n'){
+				lines++;
+				chars = 0;
+			} else {
+				chars++;
+			}
+			if((x=='\"' && !singleQuoted) && !checkEscape){
+				quoted = !quoted;
+			} 
+			if((x=='\'' && !quoted) && !checkEscape){
+				singleQuoted = !singleQuoted;
+			}
+			if(quoted || singleQuoted){
+				if(x == '\\' && !checkEscape){
+					checkEscape = true;
+				}
+				else {
+					checkEscape = false;
+				}
+			}
+			if(quoted) continue;
+			if(singleQuoted) continue; //checks to see if code is in quotes, skips if so
+			
+			if(x==')'){
+				if(check == '_'){
+					reportError(lines, chars, ')');
+				}
+				else if(check != '('){
+					reportError(lines, chars, ')');
+				}
+				else if(check == '('){
+					testStack.pop(lastPop);
+				}
+			} else if(x==']') {
+				if(check == '_'){
+					reportError(lines, chars, ']');
+				}
+				else if(check != '['){
+					reportError(lines, chars, ']');
+				}
+				else if(check == '['){
+					testStack.pop(lastPop);
+				}
+			} else if(x=='}') {
+				if(check == '_'){
+					reportError(lines, chars, '}');
+				}
+				else if(check != '{'){
+					reportError(lines, chars, '}');
+				}
+				else if(check == '{'){
+					testStack.pop(lastPop);
+				}
+			}
+			else if(x=='{' || x=='(' || x=='['){ //looks for hanging bracks, otherwise pushes trailing brack
+				testStack.push(x);
+				if(x=='{'){
+					lastLines[2] = lines;
+					lastChars[2] = chars;
+				}
+				if(x=='('){
+					lastLines[0] = lines;
+					lastChars[0] = chars;
+				}
+				if(x=='['){
+					lastLines[1] = lines;
+					lastChars[1] = chars;
+				}
+			}
+		}
+		char lastPeek = testStack.peek(); //if stack is not empty after parsing code, report error
+		if(lastPeek != '_') {
+			if(lastPeek == '{') {
+			reportError(lastLines[2], lastChars[2], lastPeek);
+			}
+			if(lastPeek == '[') {
+			reportError(lastLines[1], lastChars[1], lastPeek);
+			}
+			if(lastPeek == '(') {
+			reportError(lastLines[0], lastChars[0], lastPeek);
+			}
+		}
+	}
+}
+
+void codeParser::reportError(int lines, int chars, char chType){
+	cout << "\n<<< ERROR FOUND >>>" << endl;
+	cout << "    Line: " << lines << "\n    Char: " << chars << endl;
+	switch(chType){
+		case ')':
+			cout << "    Missing a '('." << endl;
+			break;
+		case ']':
+			cout << "    Missing a '['." << endl;
+			break;
+		case '}':
+			cout << "    Missing a '{'." << endl;
+			break;
+		case '(':
+			cout << "    Trailing '('." << endl;
+			break;
+		case '[':
+			cout << "    Trailing '['." << endl;
+			break;
+		case '{':
+			cout << "    Trailing '{'." << endl;
+			break;
+		default: 
+			cout << "ERROR IN REPORT_ERROR FUNCTION" << endl;
+			break;
+	}
+}
